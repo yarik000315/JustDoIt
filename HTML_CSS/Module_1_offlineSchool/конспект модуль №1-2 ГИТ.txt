@@ -1,0 +1,89 @@
+
+Установка имени и электронной почты
+Если вы никогда ранее не использовали git, для начала вам необходимо осуществить установку. Выполните следующие команды, чтобы git узнал ваше имя и электронную почту. Если git уже установлен, можете переходить к разделу окончания строк.
+
+ВЫПОЛНИТЬ:
+git config --global user.name "Your Name"
+git config --global user.email "your_email@whatever.com"
+02Параметры установки окончаний строк
+Также, для пользователей Unix/Mac:
+
+ВЫПОЛНИТЬ:
+git config --global core.autocrlf input
+git config --global core.safecrlf warn
+Для пользователей Windows:
+
+ВЫПОЛНИТЬ:
+git config --global core.autocrlf true
+git config --global core.safecrlf warn
+
+
+
+
+
+
+
+
+рух по системі:
+cd d:
+cd pro
+cd Projects
+cd .. - піднятись на рівень вверх
+
+git --version
+git config --list 
+git config --global user.name ""
+git config --global user.email ""
+
+mkdir test - створив папку
+git init - створив репозитрій, додалось .git
+
+
+echo index.html - створили новий файл
+
+code . - відкриває VisualStudioCode
+
+
+-git log - історія комітів
+після потбідно натиснути ctrl+c щоб вийти
+
+branch:
+git branch - the list of all branch
+git branch header - added new branch
+git branch -d header - delete header-branch
+git branch -m head - rename this branch
+
+
+git checkout [branch name]
+git checkout -b [branch name] - added new branch and stay on this branch
+
+злиття гілок:
+git checkout master
+git merge header
+git branch -d header
+
+
+Коли працюють двоє і більше, необхідно залити свої зміни, то ми спочатку, переходимо на головну гілку:
+git checkout(co) master
+і робимо команду: 
+git pull!
+, після чого переходимо на нашу гілку яку ми хочемо залити, і виконуєм команду
+git merge master
+це виконується для вирішення можливих конфліктів із мастер, але вже у вашій гілці, щоб не ламати master. Після чого переходимо на master і виконуєм команду
+git merge [branch name].
+
+
+git diff - зміни які були виконані
+
+
+
+git commit --amend - змінюєм коміт, потім натискаємо Esc. внизу вводимо :wq
+
+
+git push -u origin header - в такому випадку ми сворили гілку Header локально, і встановили зв"язок із віддаленим репозторієм. 
+
+
+
+
+
+ 
