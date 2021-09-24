@@ -1,13 +1,9 @@
-.card {
-  color: blue;
+html {
+  box-sizing: border-box;
 }
 
-.content-box {
-  box-sizing: content-box;
-  width: 100px;
-  height: 100px;
-  margin: 20px;
-  padding: 20px;
-  border: 10px solid #212121;
-  background-color: #009688;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
