@@ -13,3 +13,8 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+container {
+  width: 901px;
+  margin: 0 auto;
+}
