@@ -14,10 +14,19 @@ img {
   height: auto;
 }
 
+.container {
+  width: 901px;
+margin: 0 auto;
+/* background-color: teal; */
+}
+
 * {
   outline: 1px solid red ;
 }
 
+body {
+  font-family: "Playfair Display";
+}
 
 .navigation{
   text-align: center;
@@ -26,27 +35,67 @@ img {
 .navigation-list{
   padding: 0;
   margin: 0;
+  font-size: 0px;
   list-style: none;
 }
 
 .navigation-item {
+  margin-top: 60px;
+  margin-bottom: 100px;
   display: inline-block;
+  font-size: 14px;
+line-height: 24px;
+color:  #626262;
+font-weight: 400;
+}
+
+.navigation-item:not(:last-child) {
+  margin-right: 120px;
 }
 
 .feature-list {
   padding: 0;
   margin: 0;
+  font-size: 0px;
   list-style: none;
 }
 
 .feature-item {
+  
   display: inline-block;
+  width: 421px;
+}
+
+
+
+.feature-item-name {
+  text-transform: uppercase;
+font-size: 14px;
+line-height: 17px;
+color: #b4ad9e;
+font-weight: 300;
+font-family: "Ubuntu";
+}
+
+h2 + p{
+  font-size: 14px;
+line-height: 24px;
+color: #626262;
+  font-weight: 400;
+  font-family: "Playfair Display";
+  text-align: justify;
+}
+
+h2 {
+  font-size: 30px;
+color: #626262;
+font-weight: 400;
+font-family: "Playfair Display"
 }
 
 main {
   text-align: center;
 }
-
 footer {
   text-align: center;
 }
